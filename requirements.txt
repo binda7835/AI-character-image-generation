@@ -1,0 +1,16 @@
+# Halloween Image Generator - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core libraries
+Pillow>=10.0.0
+requests>=2.31.0
+
+# Optional: For advanced background removal
+# Uncomment if you want automatic background removal
+# rembg>=2.0.50
+
+# API clients (choose based on your API preference)
+# For OpenAI DALL-E
+openai>=1.3.0
+
+# Note: Stability AI doesn't require a special package, uses direct API calls

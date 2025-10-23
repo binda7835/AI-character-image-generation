@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Image files (too large for GitHub)
+halloween_characters/*.png
+halloween_characters_transparent/*.png
+etsy_mockups/*.png
+video_frames/*.png
+*.gif
+*.jpg
+*.jpeg
+
+# Large bundles
+*.zip
+
+# PDF outputs
+CUSTOMER_DOWNLOAD_INSTRUCTIONS.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Keep folder structure but ignore contents
+halloween_characters/*
+!halloween_characters/.gitkeep
+halloween_characters_transparent/*
+!halloween_characters_transparent/.gitkeep
+etsy_mockups/*
+!etsy_mockups/.gitkeep
+video_frames/*
+!video_frames/.gitkeep

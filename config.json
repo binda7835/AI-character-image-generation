@@ -1,0 +1,47 @@
+{
+  "_comment": "Configuration file for Halloween Image Generator",
+  "_instructions": "Choose 'stability', 'openai', 'huggingface' (FREE), 'replicate', or 'pollinations' (100% FREE, NO TOKEN!) for api_choice",
+  
+  "api_choice": "pollinations",
+  
+  "stability_api_key": "YOUR_STABILITY_AI_API_KEY_HERE",
+  "openai_api_key": "YOUR_OPENAI_API_KEY_HERE",
+  "huggingface_token": "YOUR_HUGGINGFACE_TOKEN_HERE",
+  "huggingface_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "replicate_token": "YOUR_REPLICATE_TOKEN_HERE",
+  "removebg_api_key": "YOUR_REMOVEBG_API_KEY_HERE",
+  
+  "output_dir": "halloween_characters",
+  
+  "width": 4500,
+  "height": 5400,
+  "dpi": 300,
+  
+  "delay_between_requests": 3,
+  
+  "_notes": {
+    "api_keys": {
+      "stability_ai": "Get your API key from https://platform.stability.ai/",
+      "openai": "Get your API key from https://platform.openai.com/",
+      "huggingface": "Get FREE token from https://huggingface.co/settings/tokens (optional but recommended)",
+      "replicate": "Get token from https://replicate.com/account/api-tokens"
+    },
+    "pricing": {
+      "huggingface": "FREE (with rate limits) - RECOMMENDED FOR FREE USAGE",
+      "replicate": "~$0.0023 per image (very affordable)",
+      "stability_ai": "$0.05-0.10 per image",
+      "openai_dalle3": "$0.080 per image"
+    },
+    "estimated_cost": {
+      "100_images_huggingface": "FREE (may take longer due to rate limits)",
+      "100_images_replicate": "$0.23 USD",
+      "100_images_stability": "$5-10 USD",
+      "100_images_openai": "$8 USD"
+    },
+    "recommendations": {
+      "free": "Use 'huggingface' - completely free with rate limits",
+      "cheap": "Use 'replicate' - only $0.23 for 100 images",
+      "quality": "Use 'stability' or 'openai' for best quality"
+    }
+  }
+}
